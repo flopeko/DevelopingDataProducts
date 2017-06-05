@@ -32,6 +32,7 @@ shinyUI(fluidPage(
     
     # Show a plot of the generated distribution
     mainPanel(
+       h4("The app is really simple, just select a Language and the color Palette and it will give back a Wordcloud of my Data Science Skills. Spanish language & Yellow & Green palette are defaults.", align = "left"),
        plotOutput("wcPlot")
     )
   )
